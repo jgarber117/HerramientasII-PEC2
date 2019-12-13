@@ -1,0 +1,69 @@
+// General styles
+html {
+  box-sizing: border-box;
+  width: 99%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $color-fondo;
+  color: $color-texto-principal;
+}
+
+header {
+  color: $color-texto-principal;
+}
+
+footer {
+  border-top: 1px solid $color-texto-principal;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.titulo-cabecera {
+  color: $color-texto-secundario;
+  font-size: calc(2em + 0.5vw);
+  font-style: italic;
+}
+
+.titulo {
+  color: $color-texto-principal;
+  text-align: center;
+}
+
+// Estilo para las listas de la cabecera
+.lista-cabecera li {
+  display: inline-block;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: $color-texto-principal;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: $color-texto-principal;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: $color-texto-secundario;
+  text-shadow: 0 0 0.2em $color-texto-principal;
+}
+
+// Estilo para la página activa
+.active {
+  border: $color-texto-secundario medium solid;
+}
+
+.active:hover {
+  box-shadow: 0 0 0 0 #ddd !important;
+}

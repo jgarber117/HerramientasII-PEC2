@@ -1,0 +1,67 @@
+// Estilos de la página 'biografia.html'
+
+.container-biografia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-small {
+  flex-basis: 33%;
+  text-align: center;
+  padding: 10px;
+}
+
+.item-medium {
+  flex-basis: 50%;
+  text-align: center;
+  padding: 10px;
+}
+
+.item-large {
+  flex-basis: 66%;
+  text-align: center;
+  padding: 10px;
+}
+
+.item-full {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.imagen-biografia {
+  max-width: 70%;
+}
+
+.texto-biografia {
+  text-align: left;
+  font-size: calc(0.7em + 0.5vw);
+}
+
+.lista-biografia {
+  text-align: left;
+  border-top: 1px solid $color-texto-secundario;
+  border-bottom: 1px solid $color-texto-secundario;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.lista-item-biografia {
+  list-style-type: none;
+  list-style-image: url('../images/check.png');
+  text-align: left;
+  font-size: calc(0.7em + 0.5vw);
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  color: $color-fondo;
+}
+
+.card-title {
+  color: $color-fondo;
+}
